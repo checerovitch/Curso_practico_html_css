@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html { font-size: 62.5%;}
+body{ font-family: Roboto, 'Segoe UI', Tahoma, sans-serif}
+                        /*header's styles begin here*/
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main--nav{
+    /*display: flex;*/
+    flex-wrap: wrap;
+    display: inline-flex;
+}
+.main--nav a{
+    font-size: 1.4rem;
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    flex-direction: row-reverse;
+    position: relative;
+    left: 110rem;
+    top: 2.5rem;
+    font-family:  Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+.main--nav__dado{
+    width: 90%;
+    height: 2.2rem;
+    position: relative;
+    margin: 0.2rem;
+    left: 111rem;
+    top: 3.2rem;
+    border-radius: 2.5rem;
+}
+.main--nav__dado:hover{
+    background-color: lightgray;
+}
+.main--nav__foto{
+    width: 65%;
+    height: 3.5rem;
+    border-radius: 100rem;
+    position: relative;
+    left: 113rem;
+    top: 2.7rem;
+}
+.main--nav__foto:hover{
+    background-color: lightgray;
+}
+
+                        /*main's styles begin here*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container--logo {
+    width: 48.5%;
+    height: 48rem;
+    justify-content: center;
+    position: relative;
+    left: 50rem;
+    bottom: 4rem;
+    right: 3rem;
+}
+.search-icon{
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    bottom: 18.5rem;
+    right: 21rem;
+}
+.searchbar{
+    width: 43vw;
+    border: white;
+    border-radius: 9rem;
+    height: 3.9rem;
+    padding-left: 3.5rem;
+    position: relative;
+    left: 38rem;
+    bottom: 19rem;
+    font-size: 1.6rem;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2), -1px -1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.searchbar:focus{
+    outline: none;
+}
+.microfono{
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+    bottom: 18.2rem;
+    left: 30.4rem;
+}
+.main--section{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -11rem;
+    right:9rem;
+    
+
+}
+.look{
+    margin-right: 1rem;
+    width: 11rem;
+    height: 3rem;
+    border: white;
+    font-size: 1.4rem;
+    font-family:  Roboto, 'Segoe UI', Tahoma, sans-serif;
+    font-weight:495;
+}
+.lucky{
+    width: 12rem;
+    height: 3rem;
+    border: white;
+    font-family:  Roboto, 'Segoe UI', Tahoma, sans-serif;
+}
+
+/*.main--section{
+    width: 43vw;
+    display:flex;
+    flex-wrap:wrap;
+    position: relative;
+    right: 27rem;
+    bottom: 14rem;
+    border: 0.1rem solid white;
+}
+.box{
+    width:8.12vw;
+    height:15.24vh;
+    background-color: lightgray;
+    border: 0.1rem solid black;
+    margin: 0.3rem;
+}
+.img{
+    width: 5rem;
+    height: 5rem;
+}//                       /*footer's styles begin here*/
+footer input{
+    width:17rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    border-radius: 9rem;
+    border: black solid 0.1rem;
+    position: relative;
+    left: 116rem;
+    top:9rem;
+    cursor: pointer;
+    padding-left: 2.5rem;
+    color: blue;
+    background-color: white;
+    border: white;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-bottom: 0.2rem;
+}
+.pencil {
+    height: 1.3rem;
+    position: relative;
+    left:100.7rem;
+    top: 9.3rem;
+}
